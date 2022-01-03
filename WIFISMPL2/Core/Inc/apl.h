@@ -2,6 +2,14 @@
 #define __APL_MAIN_H
 
 
+/*
+ * Ver1.0.1 リセット後の待ち時間を 2秒から4秒に変更
+ *
+ *
+ */
+
+
+
 #define WIFI_OK		0
 #define WIFI_ERR	-1
 

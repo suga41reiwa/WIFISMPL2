@@ -421,7 +421,7 @@ static int wait_response( const char *normal_ans ,uint32_t tmo)
 static int wroom_powon_seq( void )
 {
 	int ret = WIFI_ERR;
-	HAL_Delay(2000);
+	HAL_Delay(4000);
 	rcv_clr();
 	put_line("ATE0",1000);	// ECHO OFF
 	ret = wait_response( s_OK ,WIFI_TMO );
